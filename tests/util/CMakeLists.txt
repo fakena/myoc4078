@@ -1,0 +1,15 @@
+INCLUDE_DIRECTORIES(
+	${OPENCOG_SOURCE_DIR}/src/util
+)
+
+LINK_DIRECTORIES(
+	${OPENCOG_BINARY_DIR}
+	${OPENCOG_BINARY_DIR}/src/util
+)
+
+LINK_LIBRARIES(util)
+
+ADD_CXXTEST(ConfigUTest)
+ADD_CXXTEST(LoggerUTest)
+ADD_CXXTEST(StringTokenizerUTest)
+ADD_CXXTEST(lazy_selectorUTest)

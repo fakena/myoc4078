@@ -1,0 +1,33 @@
+ADD_CXXTEST(vertexUTest)
+TARGET_LINK_LIBRARIES(vertexUTest
+	comboreduct
+        util
+)
+
+ADD_CXXTEST(messageUTest)
+TARGET_LINK_LIBRARIES(messageUTest
+	comboreduct
+        util
+)
+
+ADD_CXXTEST(type_treeUTest)
+TARGET_LINK_LIBRARIES(type_treeUTest
+	comboreduct
+        util
+)
+
+ADD_CXXTEST(variable_unifierUTest)
+TARGET_LINK_LIBRARIES(variable_unifierUTest
+	comboreduct
+        util
+)
+ADD_CXXTEST(procedure_repositoryUTest)
+TARGET_LINK_LIBRARIES(procedure_repositoryUTest
+	comboreduct
+        util
+)
+ADD_CXXTEST(evalUTest)
+TARGET_LINK_LIBRARIES(evalUTest
+	comboreduct
+        util
+)
