@@ -1,0 +1,16 @@
+bin/
+.bzr/
+.bzrignore
+*.orig
+*~
+
+# files created during make
+atom_types.definitions
+atom_types.h
+atom_types.inheritance
+type_constructors.scm
+# directory
+opencog/dynamics/scm/
+
+#maybe look to see if some of those extensions do exist before make somewhere though
+
